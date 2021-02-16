@@ -16,3 +16,6 @@ Electricity consumption forecasting is today an important topic for electricity 
         - classification.py: train the classifier on the train dataset and predict with it the clusters on the ensemble and test datasets.
         - training.py: functions to train the models, individual learners as well as ensemble models.
         - models.py: also used by psd_clustering_script.py, definition of models and metrics used in this work.
+- notebooks:
+    - data_preprocessing.ipynb: notebook that presents the data prepocessing: missing values, resampling...
+    - results_vizualisation.ipynb: notebook using object-oriented  to ease the vizualisation and the analyse of the data. 
