@@ -18,4 +18,11 @@ Electricity consumption forecasting is today an important topic for electricity 
         - models.py: also used by psd_clustering_script.py, definition of models and metrics used in this work.
 - notebooks:
     - data_preprocessing.ipynb: notebook that presents the data prepocessing: missing values, resampling...
-    - results_vizualisation.ipynb: notebook using object-oriented  to ease the vizualisation and the analyse of the data. 
+    - results_vizualisation.ipynb: notebook using object-oriented  to ease the vizualisation and the analyse of the data. It also presents the results using different plots made with the plotly library (https://plotly.com/python/). The notebook is large (>50MB), it is necessary to download it with the data to see the vizualisations.
+- data: contains the dataset and our results as .pkl files
+    - results: contains the predictions of each model for different time horizons, as .pkl files
+        - Benchmark: predictions of our individual learners for 5 different forecast horizons and of 2 ensemble models, MOE and COP trained on the whole dataset.
+        - hourly: predictions of our individual and ensemble models using hourly clustering method.
+        - Psf: predictions of our individual and ensemble models using the PSF algorithm
+        - SOM-DTW: predictions of our individual and ensemble models using a self organizing map with a dynamic time warping distance function.
+        - SOM-Euclidean: predictions of our individual and ensemble models using a self organizing map with an euclidean distance function.
