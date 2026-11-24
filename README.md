@@ -26,3 +26,18 @@ Electricity consumption forecasting is today an important topic for electricity 
         - Psf: predictions of our individual and ensemble models using the PSF algorithm
         - SOM-DTW: predictions of our individual and ensemble models using a self organizing map with a dynamic time warping distance function.
         - SOM-Euclidean: predictions of our individual and ensemble models using a self organizing map with an euclidean distance function.
+
+## License
+
+Copyright (C) 2021 Julie Keisler
+
+This program is free software: you can redistribute it and/or modify it
+under the terms of the GNU Affero General Public License as published by the
+Free Software Foundation, either version 3 of the License, or (at your option)
+any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE. See the [LICENSE](LICENSE) file for more details.
+
+SPDX-License-Identifier: AGPL-3.0-or-later
